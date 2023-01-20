@@ -6,11 +6,7 @@ export const CalcForm = ({ register, handleSubmit, requestData }) => {
       <h1 className="mainText">Simule sua Antecipação</h1>
       <label>
         Informe o valor da venda *
-        <input
-          type="text"
-          placeholder="Ex: R$1000,00"
-          {...register("amount")}
-        />
+        <input type="text" placeholder="Ex: 1000" {...register("amount")} />
       </label>
       <label>
         Em quantas parcelas *
@@ -19,7 +15,7 @@ export const CalcForm = ({ register, handleSubmit, requestData }) => {
       </label>
       <label>
         Informe o percentual de MDR *
-        <input type="text" placeholder="Ex: 12%" {...register("mdr")} />
+        <input type="text" placeholder="Ex: 12" {...register("mdr")} />
       </label>
     </Formulario>
   );

@@ -8,7 +8,10 @@ export const Formulario = styled.form`
   justify-content: center;
   align-items: center;
   gap: 20px;
-
+  p {
+    margin: 0px;
+    color: red;
+  }
   .mainText {
     margin: 0px;
     margin-left: -15px;
